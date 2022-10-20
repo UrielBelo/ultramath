@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    background-color: #C6C6C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 2px solid #AAA;
+}
+#description{
+    background-color: #B7B7B7;
+    text-align: center;
+    height: 11vh;
+    padding: 10px;
+    border-bottom: 2px solid #333;
+}
+#description article{
+    margin-bottom: 15px;
+}
+#display{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+#options{
+    height: 29vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vh;
+    padding: 5vw;
+}
+.option{
+    border: 0;
+    background-color: #EEF;
+    border-radius: 10px;
+    font-size: 2em;
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    height: 30vh;
+}
+#scoreboard{
+    display: grid;
+    height: 30vh;
+    grid-template-columns: 50vw 50vw;
+}
+#right{
+    background-color: green;
+}
+#wrong{
+    background-color: red;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6.5em;
+    color: white;
+    border-radius: 10px;
+    border: 6px solid white;
+}
